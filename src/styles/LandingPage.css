@@ -1,0 +1,38 @@
+/* landingpage.css */
+
+.landing-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin:2px;
+  }
+  
+  main {
+    flex: 1;
+    /* padding: 16px; */
+  }
+
+.onepiece {
+  border-radius: 10px;
+  box-shadow: 0 4px 4px rgba(27, 27, 27, 0.2);
+}
+
+.font {
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+  
+  section {
+    margin-bottom: 50px;
+  }
+
+
+.s2 {
+  margin-top: 1px;
+}
+  
+  /* Example media query for responsiveness */
+  @media screen and (max-width: 768px) {
+    main {
+      padding: 8px;
+    }
+  }
+  

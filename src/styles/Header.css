@@ -1,0 +1,41 @@
+/* header.css */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #1461dd;
+    /* background-image: linear-gradient(to bottom  #031cff 0%, #1461dd 100%); */
+    width: 100%;
+  }
+
+.font {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+  .logo img {
+    height: 70px;
+    width:70px;
+  }
+  
+  .nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav ul li {
+    margin-left: 16px;
+  }
+  
+  .nav ul li a {
+    text-decoration: none;
+    color: #fdfdfd;
+    font-weight: bold;
+  }
+  
+  .nav ul li a:hover {
+    color: #fff;
+  }
+  
